@@ -4,7 +4,7 @@
 
 This is a React application called "Pokédex" that utilizes React Query to interact with the Pokemon API and list the top 151 original Pokemon. It provides a user-friendly interface to explore the details of each Pokemon, such as their types, weight, height, and abilities.
 
-Live Demo: [Time Planner](https://pokemon-u0m8.onrender.com/)
+Live Demo: [Pokédex App](https://pokemon-u0m8.onrender.com/)
 
 ## Features
 
