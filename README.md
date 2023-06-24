@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Pokédex App (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](https://nickerson.io/assets/maxresdefault4-f5ddecd5.jpg)
 
-## Available Scripts
+This is a React application called "Pokédex" that utilizes React Query to interact with the Pokemon API and list the top 151 original Pokemon. It provides a user-friendly interface to explore the details of each Pokemon, such as their types, weight, height, and abilities.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- List of top 151 Pokemon: The app fetches data from the Pokemon API using React Query and displays a list of the top 151 original Pokemon, including their names and images.
+- Pokemon details: By clicking on a Pokemon in the list, users can view detailed information about the selected Pokemon, including its types, weight, height, and abilities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Pokédex App is built using the following technologies:
 
-### `npm test`
+- React: A JavaScript library for building user interfaces.
+- React Query: A data fetching library for React that simplifies API calls and state management.
+- Pokemon API: An open-source API that provides information about various Pokemon species.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run the Pokédex App locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+```
+git clone https://github.com/darren-nickerson/pokodex.git
+```
+2. Navigate to the project directory:
+```
+cd pokedex-main
+```
+3. Install dependencies:
+```
+npm install
+```
+4. Start the development server:
+```
+npm start
+```
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Upon opening the app in a web browser, you will see a list of the top 151 Pokemon. Clicking on a Pokemon will display its detailed information, including its types, weight, height, and abilities.
 
-### `npm run eject`
+## Examples
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here are a few examples of how to use the Pokédex App:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- To view the details of Pikachu:
+  - Scroll through the list and click on "Pikachu".
+  - The app will display information such as Pikachu's types (Electric), weight, height, and abilities.
+- To view the details of Charizard:
+  - Scroll through the list and click on "Charizard".
+  - The app will display information such as Charizard's types (Fire/Flying), weight, height, and abilities.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions to the Pokédex App are welcome. If you encounter any bugs, have suggestions for improvements, or would like to add new features, please submit an issue or a pull request to the GitHub repository at [https://github.com/darren-nickerson/pokodex.git](https://github.com/darren-nickerson/pokodex.git)
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Pokédex App is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgements
 
-### Code Splitting
+- React - [https://reactjs.org/](https://reactjs.org/)
+- React Query - [https://react-query.tanstack.com/](https://react-query.tanstack.com/)
+- The Pokemon API - [https://pokeapi.co/](https://pokeapi.co/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to explore and enjoy the Pokédex App! If you have any questions or need further assistance, please don't hesitate to reach out.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
